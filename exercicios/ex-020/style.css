@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1' ;
+    src: url(fonts/AVELIRE.ttf);
+}
+h1{
+    font-family: 'fonte1';
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+a:active{
+    color: blue;
+}
+.especial::before{
+    content: '✪  ';
+    color: black;
+}
+
+.especial::after{
+    content:  '     ✪';
+    color: black;
+}

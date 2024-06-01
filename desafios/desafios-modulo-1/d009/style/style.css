@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+    body{
+       background-image: linear-gradient(to bottom,#0D0D0D,#262626);
+       background-attachment: fixed;
+        text-align: center;
+      
+    }
+    .java{
+        color: yellow;
+    }
+    .hard{
+        color: #5858e0;
+    }
+    .html{
+        color:  #5858e0;
+    }
+    .py{
+        color:  #40408a;
+    }

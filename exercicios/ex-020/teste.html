@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            margin: auto;
+            background-color: beige;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(202, 209, 188);
+        }
+
+        div:hover{
+            width: 300px;
+        }
+        div > ul{
+            display: none;
+        }
+        div:hover > ul{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>MENU</h1>
+    <div>
+        Here you'll find our menu of food
+        <ul>
+            <li><a href="images.html">Sea Food</a><br>Price: U$150</li>
+            <li><a href="barbecue.html">Barbecue</a><br>Price: U$50</li>
+        </ul>
+    </div>
+</body>
+</html>
