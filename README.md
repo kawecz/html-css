@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://kawecz.github.io/html-css/exercicios/ex-010-exercicio/index.html"></a>
+<a href="https://kawecz.github.io/html-css/exercicios/ex-010-exercicio/index.html">Executar exercicio 10</a>
