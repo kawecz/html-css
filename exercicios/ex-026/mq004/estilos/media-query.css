@@ -20,7 +20,7 @@ acime de 1200px
     }
     
     body {
-        background-image: url(../exercicios/ex-026/imagens/back-print.jpg); /* desnecessario */
+        background-image: url(../imgs/back-print.jpg); /* desnecessario */
      
     }
     img#phone {display: none;}
@@ -41,7 +41,7 @@ acime de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background: url(../exercicios/ex-026/imagens/back-tablet.jpg);
+        background: url(../imgs/back-tablet.jpg);
     }
 
     img#phone {display: none;}
@@ -53,7 +53,7 @@ acime de 1200px
 
 @media screen and (min-width:992px) and (max-width:1200px){
     body {
-        background-image: url(../exercicios/ex-026/imagens/back-pc.jpg);
+        background-image: url(../imgs/back-pc.jpg);
 
         img#phone {display: none;}
         img#tablet { display: none;}
@@ -65,7 +65,7 @@ acime de 1200px
 
 @media screen and (min-width: 1200px) {
     body {
-        background-image: url(../exercicios/ex-026/imagens/back-tv.jpg);
+        background-image: url(../imgs/back-tv.jpg);
     }
 
     img#phone {display: none;}
