@@ -20,8 +20,22 @@ header h1 {
     text-align: center;
 }
 
+span#hamburguer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+     display: block;
+     text-align: center;
+     padding: 10px;
+}
+
+span#hamburguer:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu ul {
